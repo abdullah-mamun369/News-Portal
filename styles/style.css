@@ -1,0 +1,36 @@
+.body-bg {
+  background-color: rgb(255, 255, 255);
+}
+
+.news-count-field {
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+}
+
+.category-style {
+  list-style: none;
+}
+
+.news-box {
+  background-color: white;
+}
+
+.news-img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.difference-card {
+  height: 33rem;
+}
+
+footer {
+  color: rgb(138, 138, 138);
+  text-align: center;
+  padding: 20px;
+}
+
+footer hr {
+  margin-bottom: 35px;
+}

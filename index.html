@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Top News</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/6008ea8c30.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="body-bg">
+    <section class="container">
+      <!-- header-started -->
+      <header>
+        <nav class="navbar navbar-expand-lg my-4">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-4 fw-semibold text-primary" href="#"
+              ><span class="text-white bg-primary px-3 py-2 rounded-3"
+                >Top</span
+              >
+              News</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTe      xt"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 fw-semibold">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active px-4 text-primary text-decoration-underline"
+                    aria-current="page"
+                    href="#"
+                    >News</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <hr />
+      </header>
+
+      <!-- main-started -->
+      <main>
+
+        <!-- categories-started -->
+        <div class="mt-4 p-0" id="categories-container">
+          <ul
+            id="category-list"
+            class="category-style d-sm-block d-lg-flex justify-content-evenly flex-wrap p-0"
+          ></ul>
+        </div>
+
+        <!-- Found input -->
+        <div class="news-count-field mb-3">
+          <h3><span id="news-count">9</span> news found in the <span id="news-type">Braking News</span></h4>
+        </div>
+
+        <!-- Sort section -->
+        <div class="d-flex justify-content-between">
+          <div class="d-flex w-75 ">
+            <div><h5 class="m-1">Sort By View:</h5></div>
+            <div class="input-group mb-3 w-25 ms-3">
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div> 
+            <button class="btn btn-primary" type="submit">Today's Pick</button>
+  
+            <button type="button" class="btn btn-outline-primary">Trending</button>
+          </div>
+        </div>
+        
+
+        
+        <!-- newsfeed-section-added -->
+        <section>
+          <div id="news-feed" class="container ps-5"></div>
+        </section>
+      </main>
+    </section>
+
+    <footer>
+      <hr />
+      <p>Copyright 2021 News Portal</p>
+    </footer>
+
+    <!-- js Section -->
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
